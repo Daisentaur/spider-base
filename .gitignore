@@ -1,0 +1,13 @@
+.env
+profile/
+
+# personal tasks + plan (kept local, not part of the public base)
+tasks/fee_invoice.py
+tasks/attendance.py
+ENROLLMENT_PLAN.md
+
+artifacts/
+logs/
+output/
+__pycache__/
+.venv/
