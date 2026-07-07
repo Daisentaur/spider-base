@@ -8,6 +8,8 @@ It drives a real browser (Firefox or Chromium) via
 [Playwright](https://playwright.dev/python/), so it works on any site a human
 can use: JavaScript-heavy pages, logins, carts, forms.
 
+**In all hoensty PLEASE read the GUIDE.md file its a proper step by step of how to work the tool, It'll be your best friend when setting up**
+
 ## How it fits together
 
 ```
