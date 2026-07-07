@@ -1,5 +1,6 @@
 # spider-base
 
+[el-logo for el-spida scraper lol](logo/spida.gif)
 A small base for bots that scrape sites and act on them: auto-buy, auto-register,
 watch-for-availability, plain data scraping. Clone it (or just copy a file in
 `tasks/`) per job.
