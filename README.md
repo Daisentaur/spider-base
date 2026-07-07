@@ -1,4 +1,4 @@
-# spiderbase
+# spider-base
 
 A small base for bots that scrape sites and act on them: auto-buy, auto-register,
 watch-for-availability, plain data scraping. Clone it (or just copy a file in
@@ -31,7 +31,7 @@ a Telegram ping, and a nonzero exit code so cron knows.
 ## One-time setup
 
 ```bash
-cd spiderbase
+cd spider-base
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -242,10 +242,10 @@ Scheduling is cron's job, not this code's. `crontab -e`, then e.g.:
 
 ```cron
 # every morning at 07:00
-0 7 * * * cd /home/you/spiderbase && .venv/bin/python run.py my_task >> logs/cron.log 2>&1
+0 7 * * * cd /home/you/spider-base && .venv/bin/python run.py my_task >> logs/cron.log 2>&1
 
 # long-running watch task: start at 3am the day registration opens
-0 3 15 8 * cd /home/you/spiderbase && .venv/bin/python run.py course_reg >> logs/cron.log 2>&1
+0 3 15 8 * cd /home/you/spider-base && .venv/bin/python run.py course_reg >> logs/cron.log 2>&1
 ```
 
 The watch() loop keeps a single process alive until the condition hits, so

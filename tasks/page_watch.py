@@ -6,7 +6,7 @@ this file per thing you want watched and adjust URL + SELECTOR.
 
     python run.py page_watch
     # cron, every 30 min:
-    # */30 * * * * cd /path/to/scraper-base && .venv/bin/python run.py page_watch >> logs/cron.log 2>&1
+    # */30 * * * * cd /path/to/spider-base && .venv/bin/python run.py page_watch >> logs/cron.log 2>&1
 """
 
 import hashlib
